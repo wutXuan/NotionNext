@@ -24,13 +24,13 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '文宣', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || '一名在读研究生🍚', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://tangly1024.com', // 网站地址
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || '老码', // 您的昵称 例如 tangly1024
+  BIO: process.env.NEXT_PUBLIC_BIO || '热爱分享的程序员🍚', // 作者简介
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.coderouteguide.cn/', // 网站地址
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'code,算法,刷题', // 网站关键词 英文逗号隔开
 
   // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
-  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '1007284584@qq.com', // 邮箱地址 例如mail@tangly1024.com
+  CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || 'coderouteguide@163.com', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || '', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || 'https://github.com/wutXuan/', // 你的github个人主页 例如 https://github.com/tangly1024
@@ -542,12 +542,11 @@ const BLOG = {
 
   // openwrite
 
-  OPEN_WRITE_BLOG_ID: '33660-1735287900524-401',
-  OPEN_WRITE_QRCODE: 'https://wx-1333716016.cos.ap-guangzhou.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%87/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241227162203.jpg',
+  OPEN_WRITE_BLOG_ID: '33660-1735291418022-231',
+  OPEN_WRITE_QRCODE: 'https://github.com/wutXuan/NotionNext/blob/main/public/avatar.png?raw=true',
   OPEN_WRITE_NAME: '码途指南Pro',
   OPEN_WRITE_KEYWORD: '验证码',
   OPEN_WRITE_BTN_TEXT: '原创不易，完成人机检测，阅读全文',
-  OPEN_WRITE_VALIDITY_DURATION: '24',
   // 开发相关
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
