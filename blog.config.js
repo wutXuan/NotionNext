@@ -540,6 +540,14 @@ const BLOG = {
   DESCRIPTION:
     process.env.NEXT_PUBLIC_DESCRIPTION || '这是一个由NotionNext生成的站点', // 站点描述，被notion中的页面描述覆盖
 
+  // openwrite
+
+  OPEN_WRITE_BLOG_ID: '33660-1735287900524-401',
+  OPEN_WRITE_QRCODE: 'https://wx-1333716016.cos.ap-guangzhou.myqcloud.com/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%9B%BE%E7%89%87/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20241227162203.jpg',
+  OPEN_WRITE_NAME: '码途指南Pro',
+  OPEN_WRITE_KEYWORD: '验证码',
+  OPEN_WRITE_BTN_TEXT: '原创不易，完成人机检测，阅读全文',
+  OPEN_WRITE_VALIDITY_DURATION: '24',
   // 开发相关
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
   DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
