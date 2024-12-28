@@ -8,8 +8,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '关注微信公众号获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '欢迎来到我的博客', url: '/about },
+    { title: '关注微信公众号获取更多帮助', url: '/wxgzh' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -23,17 +23,17 @@ const CONFIG = {
   HEO_HERO_TITLE_3: '',
   HEO_HERO_TITLE_4: '新版上线',
   HEO_HERO_TITLE_5: '春招冲刺计划',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_LINK: '/hot',
   // 英雄区遮罩文字
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
   HEO_HERO_CATEGORY_1: { title: '精选题库', url: '/tag/精选题库' },
-  HEO_HERO_CATEGORY_2: { title: '名企面试', url: '/tag/名企面试' },
-  HEO_HERO_CATEGORY_3: { title: '专项练习', url: '/tag/专项练习' },
+  HEO_HERO_CATEGORY_2: { title: '技术分享', url: '/tag/技术分享' },
+  HEO_HERO_CATEGORY_3: { title: '考研专区', url: '/tag/考研专区' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '精选题库',
+  HEO_HERO_RECOMMEND_POST_TAG: '',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
@@ -53,7 +53,7 @@ const CONFIG = {
   HEO_INFO_CARD_ICON1: 'fas fa-user',
   HEO_INFO_CARD_URL2: 'https://github.com/wutXuan',
   HEO_INFO_CARD_ICON2: 'fab fa-github',
-  HEO_INFO_CARD_URL3: 'https://www.tangly1024.com',
+  HEO_INFO_CARD_URL3: '/wxgzh',
   HEO_INFO_CARD_TEXT3: '了解更多',
 
   // 用户技能图标
@@ -120,7 +120,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: '微信公众号',
   HEO_SOCIAL_CARD_TITLE_2: '快人一步获取最新文章',
   HEO_SOCIAL_CARD_TITLE_3: '扫一扫',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  HEO_SOCIAL_CARD_URL: '/wxgzh',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
