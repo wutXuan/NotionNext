@@ -119,7 +119,8 @@ const CONFIG = {
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   HEO_SOCIAL_CARD_TITLE_1: '微信公众号',
   HEO_SOCIAL_CARD_TITLE_2: '快人一步获取最新文章',
-  HEO_SOCIAL_CARD_TITLE_3: '扫一扫',
+  HEO_SOCIAL_CARD_TITLE_3: '点击我',
+  HEO_SOCIAL_CARD_TITLE_4: '发现更多精彩',
   HEO_SOCIAL_CARD_URL: '/wxgzh',
 
   // *****  以下配置无效，只是预留开发 ****
