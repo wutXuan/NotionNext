@@ -28,9 +28,9 @@ const CONFIG = {
   HEO_HERO_COVER_TITLE: '随便逛逛',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '精选题库', url: '/tag/精选题库' },
-  HEO_HERO_CATEGORY_2: { title: '技术分享', url: '/tag/技术分享' },
-  HEO_HERO_CATEGORY_3: { title: '考研专区', url: '/tag/考研专区' },
+  HEO_HERO_CATEGORY_1: { title: 'Hot 100 题', url: '/hot100' },
+  HEO_HERO_CATEGORY_2: { title: 'Hot 300 题', url: '/hot300' },
+  HEO_HERO_CATEGORY_3: { title: '全部题库', url: '/all' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '',
